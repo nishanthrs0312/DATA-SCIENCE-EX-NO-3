@@ -208,4 +208,5 @@ print("Both Feature Encoding and Feature Transformation completed successfully."
 # RESULT:
 Thus, the given dataset was successfully read, cleaned, and subjected to Feature Encoding and Transformation processes. The transformed data was successfully saved as a CSV file.
 
-       
+## Summary:
+The program performs Feature Encoding and Feature Transformation using Python in Google Colab. Initially, the datasets are uploaded, read, and cleaned by removing missing values and duplicate records. Four encoding techniques, namely Ordinal Encoding, Label Encoding, Binary Encoding and One-Hot Encoding, are applied to convert categorical data into numerical values. Next, Function Transformations such as Log, Reciprocal, Square Root and Square transformations are performed on numerical features. Power Transformations, including Box-Cox and Yeo-Johnson methods, are also applied to improve data distribution. The skewness values are compared, and a bar graph is generated to visualize the results. Finally, the encoded and transformed datasets are saved as separate CSV files and downloaded successfully.
